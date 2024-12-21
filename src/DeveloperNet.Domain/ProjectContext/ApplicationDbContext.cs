@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace DeveloperNet.WebUI.Data
+namespace DeveloperNet.Domain.ProjectContext
 {
     public class ApplicationDbContext : IdentityDbContext
     {
