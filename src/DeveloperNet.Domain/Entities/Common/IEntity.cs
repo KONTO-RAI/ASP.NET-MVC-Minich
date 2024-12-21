@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DeveloperNet.Domain.Entities.Common
 {
-    internal interface IEntity
+    public interface IEntity<T>
     {
+        T Id { get; set; }
     }
 }
